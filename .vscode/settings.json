@@ -3,5 +3,12 @@
         "*.world": "xml",
         "*.sdf": "xml",
         "functional": "cpp"
-    }
+    },
+    "python.autoComplete.extraPaths": [
+        "/usr/lib/python3/dist-packages/"
+    ],
+    "python.analysis.extraPaths": [
+        "/usr/lib/python3/dist-packages/"
+    ],
+    "C_Cpp.default.compilerPath": "/usr/bin/g++-11"
 }

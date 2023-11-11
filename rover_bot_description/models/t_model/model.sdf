@@ -19,18 +19,6 @@
           <emissive>0 0 0 1</emissive>
         </material>
       </visual>
-      <!-- <inertial>
-        <mass>100</mass>
-        <inertia>
-          <ixx>16.667</ixx>
-          <ixy>0</ixy>
-          <ixz>0</ixz>
-          <iyy>16.667</iyy>
-          <iyz>0</iyz>
-          <izz>16.667</izz>
-        </inertia>
-        <pose frame=''>0 0 0 0 -0 0</pose>
-      </inertial> -->
       <collision name="link_0_collision">
         <geometry>
           <box>

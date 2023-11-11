@@ -4,11 +4,11 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/usr/include/gazebo-11/gazebo/**",
-                "/usr/include/ignition/math6/**"
+                "/usr/include/gazebo-11/**",
+                "/usr/include/ignition/**",
+                "/usr/include/sdformat-9.7"
             ],
             "defines": [],
-            "compilerPath": "/usr/bin/clang",
             "cStandard": "c17",
             "cppStandard": "c++14",
             "intelliSenseMode": "linux-clang-x64"
