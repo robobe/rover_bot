@@ -11,7 +11,7 @@
         </include>
     
         <include>
-            <uri>model://t_model</uri>  <!-- add plugin to model.sdf -->
+            <uri>model://t_model</uri>
         </include>
         
   </world>
