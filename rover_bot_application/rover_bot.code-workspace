@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../rover_bot_ws"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.world": "xml",
+			"*.sdf": "xml",
+			"functional": "cpp"
+		},
+		"pylint.args": [
+			"--rcfile=${workspaceFolder}/.pylintrc"
+		]
+	}
+}

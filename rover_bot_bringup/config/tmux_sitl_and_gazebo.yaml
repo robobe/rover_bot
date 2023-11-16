@@ -9,7 +9,7 @@ windows:
     panes:
       - shell_command: # pane no. 1
           - source env.sh
-          - gazebo --verbose rover_world.sdf
+          - gazebo --verbose course.world
       - shell_command:
           - ./rover_bot_bringup/scripts/run_ardurover.sh
       - shell_command:
