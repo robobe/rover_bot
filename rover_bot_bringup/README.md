@@ -8,3 +8,8 @@ tmuxp load ./rover_bot_bringup/config/tmux_sitl_and_gazebo.yaml
 ```bash
 ros2 launch mavros apm.launch fcu_url:=udp://:14550@
 ```
+
+## plane
+```
+tmuxp load ./rover_bot_bringup/config/tmux_plane_and_gazebo.yaml
+```

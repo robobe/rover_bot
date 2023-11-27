@@ -1,0 +1,19 @@
+session_name: sitl_and_gazebo
+windows:
+  - window_name: sitl and gazebo
+    layout: tiled
+    shell_command_before:
+      - killall gzserver
+      - killall gzclient
+      - cd /home/user/projects/rover_bot/
+    panes:
+      - shell_command: # pane no. 1
+          - source env.sh
+          - gazebo --verbose titra.world
+      - shell_command:
+          - ./rover_bot_bringup/scripts/run_arduplane.sh
+      - shell_command:
+          - sleep 3
+          - mavproxy.py --master tcp:127.0.0.1:5770 --out=udp:127.0.0.1:14550
+
+

@@ -23,3 +23,16 @@
 --defaults /home/user/projects/rover_bot/rover_bot_bringup/config/rover.parm \
 -I0
 ```
+
+# plane
+```
+sim_vehicle.py -v ArduPlane -f gazebo-zephyr  -m --mav10 --map --console -I0
+
+```
+
+```
+MANUAL> mode fbwa
+FBWA> arm throttle
+FBWA> rc 3 1800
+FBWA> mode circle
+```
